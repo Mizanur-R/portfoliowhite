@@ -1,0 +1,46 @@
+// all variable
+$primary-color : #f6f9fd; // background color
+$primary-text: #0f2f57;
+$secondary-color: #ed502e;
+$secondary-bg : white;
+$heading-top: #aaaaaa;
+$font-family: sans-serif;
+$p-color: #444444;
+$heading-size: 44px;
+$responsive-heading: 23px;
+$menu-color: #ccc; // menu font color
+$hero-overly: rgba(10, 1, 39, 0.674);
+$bar-bg-color: #ed502e;
+
+// $gradient: linear-gradient(to right top, #c50ba6, #0a1dfd);
+.py-6{
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+}
+.py-7{
+    padding-top: 6rem !important;
+    padding-bottom: 6rem !important;
+}
+.bar{
+    width: 70px;
+    height: 3px;
+    background-color: $secondary-color;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 2px 4px 5px 1px #0f0923;
+}
+.heading-bar{
+    font-size: 44px;
+    position: relative;
+    display: inline-block;
+}
+.heading-bar::after{
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    background: $secondary-color;
+    top: 29px;
+    right: -106px;
+}
+

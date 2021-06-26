@@ -1,0 +1,193 @@
+.py-6 {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important; }
+
+.py-7 {
+  padding-top: 6rem !important;
+  padding-bottom: 6rem !important; }
+
+.bar {
+  width: 70px;
+  height: 3px;
+  background-color: #ed502e;
+  margin: auto;
+  margin-top: 20px;
+  box-shadow: 2px 4px 5px 1px #0f0923; }
+
+.heading-bar {
+  font-size: 44px;
+  position: relative;
+  display: inline-block; }
+
+.heading-bar::after {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 2px;
+  background: #ed502e;
+  top: 29px;
+  right: -106px; }
+
+@media (min-width: 576px) {
+  .hero .hero-content .name {
+    width: 460px !important; } }
+
+@media (min-width: 768px) {
+  header {
+    padding: 22px 0px; }
+    header .container .nav-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between; }
+      header .container .nav-bar .nav-area ul {
+        display: flex; }
+        header .container .nav-bar .nav-area ul li {
+          list-style: none;
+          margin-right: 25px; }
+          header .container .nav-bar .nav-area ul li a {
+            text-decoration: none;
+            color: #ccc;
+            text-transform: capitalize;
+            transition: .3s;
+            -webkit-transition: .3s;
+            -moz-transition: .3s;
+            -ms-transition: .3s;
+            -o-transition: .3s; }
+          header .container .nav-bar .nav-area ul li a:hover {
+            color: #ed502e; } }
+
+@media (min-width: 992px) {
+  .about-details .img img {
+    max-width: 95%;
+    height: 450px;
+    margin: auto; }
+  .skill .skill-items .css {
+    margin-right: 23px !important; }
+  .skill .skill-items .js {
+    margin-right: 95px !important; }
+  .skill .skill-items .jquery {
+    margin-right: 91px !important; }
+  .skill .skill-items .bootstrap {
+    margin-right: 23px !important; }
+  .skill .skill-items .react {
+    margin-right: 229px !important; } }
+
+@media (min-width: 1200px) {
+  .about .about-content .services .service-items h3 {
+    font-size: 22px !important; } }
+
+@media (max-width: 991px) {
+  .about-details .img {
+    display: flex;
+    justify-content: center; }
+    .about-details .img img {
+      max-width: 80%;
+      margin: auto; } }
+
+@media (max-width: 767px) {
+  header {
+    padding: 22px 0;
+    position: relative; }
+    header .nav-bar .mobile-menu {
+      position: absolute;
+      right: 5%;
+      top: 21%; }
+      header .nav-bar .mobile-menu span {
+        font-size: 23px;
+        color: black;
+        cursor: pointer; }
+    header .nav-bar .nav-area {
+      background: #0f0922;
+      position: absolute;
+      top: 76px;
+      left: 5%;
+      right: 5%;
+      padding: 20px 15px 50px;
+      z-index: 6;
+      border-radius: 2px;
+      border: 1px solid #ed502e;
+      opacity: 0;
+      visibility: hidden;
+      transition: .2s;
+      transform: translateY(30px);
+      -webkit-transform: translateY(30px);
+      -moz-transform: translateY(30px);
+      -ms-transform: translateY(30px);
+      -o-transform: translateY(30px); }
+      header .nav-bar .nav-area ul li {
+        list-style: none;
+        padding-bottom: 10px; }
+        header .nav-bar .nav-area ul li a {
+          text-decoration: none;
+          color: white;
+          font-size: 18px;
+          text-transform: capitalize;
+          display: block;
+          transition: .3s; }
+        header .nav-bar .nav-area ul li a:hover {
+          color: #ed502e; }
+  .hero .hero-content .name {
+    font-size: 42px !important; }
+  .about .about-content .services .service-items {
+    min-height: auto !important; } }
+
+@media (max-width: 575px) {
+  .hero .hero-content .name {
+    font-size: 30px !important; }
+  .hero h1.cd-headline.clip.is-full-width.anim-h1 {
+    font-size: 22px !important; }
+  .social {
+    display: none; }
+  .about .about-content .section-heading h2 {
+    font-size: 30px !important; }
+  .about .about-details .img img {
+    width: 100%; }
+  .about .about-details .about-me .dev-hed {
+    font-size: 23px !important; }
+  .about .about-details .about-me .cv-btn a {
+    font-size: 14px !important;
+    padding: 8px !important;
+    width: 120px; }
+  .about .about-details .about-me .about-social {
+    display: none; }
+  .about .services .service-heading .my-ser {
+    font-size: 23px !important; }
+  .about .services .service-heading .my-ser::after {
+    display: none !important; }
+  .about .counter .counter-number h1 {
+    font-size: 20px !important; }
+  .about .testimonials .testimonial-heading h2 {
+    font-size: 23px !important; }
+  .about .testimonials .testimonial-heading h2::after {
+    display: none !important; }
+  .about .package .package-heading h2 {
+    font-size: 23px !important; }
+  .about .package .package-heading h2::after {
+    display: none; }
+  .resume .resume-heading h2 {
+    font-size: 30px !important; }
+  .resume .education .resume-details h2 {
+    font-size: 23px; }
+  .resume .education .resume-details .resume-items h3 {
+    font-size: 23px; }
+  .resume .education .resume-details .resume-items h3::after, .resume .education .resume-details .resume-items h3::before {
+    display: none; }
+  .skill .skill-heading h2 {
+    font-size: 23px !important; }
+  .skill .skill-heading h2::after {
+    display: none; }
+  .portfolio .portfolio-heading h2 {
+    font-size: 23px !important; }
+  .portfolio .portfolio-btn ul {
+    display: flex;
+    flex-direction: column; }
+    .portfolio .portfolio-btn ul li {
+      margin-bottom: 10px; }
+  .blog .blog-heading h2 {
+    font-size: 23px !important; }
+  .contact .contact-heading h2 {
+    font-size: 23px !important; }
+  .contact .contact-info .info-item {
+    display: block !important; }
+    .contact .contact-info .info-item .icon {
+      margin-bottom: 15px; } }
